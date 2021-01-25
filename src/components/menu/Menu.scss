@@ -1,0 +1,114 @@
+.main-area {
+  width: 650px;
+  margin: 0 auto;
+  padding: 10px 5px;
+  background: aliceblue;
+  border-radius: 5px;
+  margin-bottom: 50px;
+
+  &.game-mode {
+    width: 800px;
+  }
+}
+
+.main-menu {
+  text-align: center;
+  margin: 20px 0;
+
+  & .property {
+
+    & .title {
+      margin-bottom: 15px;
+    }
+
+    & .tank-title, & .instruction-title {
+      margin-top: 15px;
+    }
+
+    & .map-section {
+      width: 600px;
+      margin: 0 auto;
+      & img {
+        border: 2px solid black;
+        width: 500px;
+        min-height: 315px;
+      }
+    }
+
+    & .tank-section {
+      width: 600px;
+      margin: 0 auto;
+    }
+
+    & .tank-image {
+      border: 2px solid black;
+      width: 500px;
+      height: 315px;
+      margin: 0 auto 5px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-image: url("../../img/tank-bg.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+
+      & img {
+        width: 200px;
+      }
+    }
+
+    & .instruction-content {
+      border: 2px solid black;
+      width: 450px;
+      height: 285px;
+      margin: 0 auto;
+      background-image: url("../../img/instruction.png");
+      background-repeat: no-repeat;
+      background-size: 150px;
+      background-position-x: 344px;
+      background-position-y: 8px;
+      text-align: initial;
+      padding: 15px 25px;
+
+      & p {
+        margin: 5px;
+
+        & span {
+          color: #004d9e;
+          font-size: 25px;
+          display: inline-block;
+          margin-left: 10px;
+
+          &.left {
+            transform: rotate(180deg);
+          }
+
+          &.up {
+            transform: rotate(270deg);
+          }
+
+          &.down {
+            transform: rotate(90deg);
+          }
+
+          &.space {
+            transform: rotate(90deg);
+            padding: 0 0 8px 0;
+            font-size: 28px;
+          }
+        }
+      }
+
+      & h4 {
+        margin: 10px 0;
+      }
+    }
+  }
+
+  & .btn-start {
+    margin: 20px 15px 15px;
+    & button {
+      width: 50%;
+    }
+  }
+}

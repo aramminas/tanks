@@ -1,0 +1,23 @@
+h1, h2 {
+  margin: 10px auto 5px;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 80px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #121212;
+  text-align: center;
+  letter-spacing: 5px;
+  text-shadow: 2px 7px 5px rgba(0, 0, 0, 0.3), 0 -4px 10px rgba(255, 255, 255, 0.3);
+}
+
+h2 {
+  font-size: 45px;
+  margin: 5px auto 10px;
+}
+h2.main-star {
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2), color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22));
+  color: transparent;
+  -webkit-background-clip: text;
+}
+
+/*# sourceMappingURL=Header.css.map */
